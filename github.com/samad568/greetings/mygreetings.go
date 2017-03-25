@@ -6,5 +6,6 @@ var GreetingsString = "Hello World"
 
 //PrintGreetings is a global function
 func PrintGreetings(name string) string {
+
 	return GreetingsString + "-" + name
 }
